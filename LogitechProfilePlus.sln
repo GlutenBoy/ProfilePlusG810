@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.25914.0
+VisualStudioVersion = 15.0.25920.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogitechProfilePlus.Windows", "LogitechProfilePlus.Windows\LogitechProfilePlus.Windows.csproj", "{7CB9119A-0ED2-4A53-B3E6-FFE3E4B35827}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{51627730-EC02-4916-9D50-771A93310522}"
+	ProjectSection(SolutionItems) = preProject
+		images\NoficationIcon.png = images\NoficationIcon.png
+		images\SettingsWindow.png = images\SettingsWindow.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
