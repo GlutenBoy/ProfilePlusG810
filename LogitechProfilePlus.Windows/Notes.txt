@@ -1,0 +1,11 @@
+﻿Profiles
+
+Profile
+	Name
+	Keys
+		Key
+			Name
+			Tag
+			R
+			G
+			B
