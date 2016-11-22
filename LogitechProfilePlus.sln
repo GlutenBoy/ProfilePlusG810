@@ -11,6 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{516277
 		images\SettingsWindow.png = images\SettingsWindow.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "releases", "releases", "{05C9513F-C46D-4086-81ED-EA16B3FD6927}"
+	ProjectSection(SolutionItems) = preProject
+		releases\ProfilePlusG810_V01.zip = releases\ProfilePlusG810_V01.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
