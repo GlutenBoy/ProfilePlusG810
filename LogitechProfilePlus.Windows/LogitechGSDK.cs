@@ -114,6 +114,7 @@ namespace LedCSharp
         NUM_PERIOD = 0x53,
         G_LOGO = 0xFFFF1,
         G_2 = 0xFFF2,
+        MUTE = 0xE2,
 
 
     };

@@ -15,11 +15,18 @@ namespace LogitechProfilePlus.Windows
 
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Form MainForm = new frmMain();
-            Application.Run();
-            //MainForm.Visible = false;
+            try
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Form MainForm = new frmMain();
+                Application.Run();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error: " + e.Message);
+            }
+
         }
     }
 }

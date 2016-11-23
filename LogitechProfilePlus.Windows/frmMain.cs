@@ -18,7 +18,6 @@ namespace LogitechProfilePlus.Windows
         Profiles _profiles = new Profiles();
         ProfileData _currentProfile;
         bool _exitApplication = false;
-        int _currentDebugScanCode = 1000;
 
         /// <summary>
         /// Constructor
@@ -200,6 +199,8 @@ namespace LogitechProfilePlus.Windows
             btnNumpadPLus.Tag = LedCSharp.KeyboardNames.NUM_PLUS.ToString();
             btnNumpadEnter.Tag = LedCSharp.KeyboardNames.NUM_ENTER.ToString();
             btnNumpadDot.Tag = LedCSharp.KeyboardNames.NUM_PERIOD.ToString();
+
+            btnMute.Tag = LedCSharp.KeyboardNames.MUTE.ToString();
         }
 
         private void KeyboardClick(object sender, EventArgs e)

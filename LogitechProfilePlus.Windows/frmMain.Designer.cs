@@ -590,7 +590,6 @@
             this.btnMute.Tag = "none";
             this.btnMute.Text = "MUTE";
             this.btnMute.UseVisualStyleBackColor = false;
-            this.btnMute.Visible = false;
             // 
             // lblLogo
             // 
