@@ -2,7 +2,7 @@
 
 Manual profile selection and creation utility for the Logitech G810 mechanical keyboard.
 
-##Notification Icon
+## Notification Icon
 
 ![](https://github.com/GlutenBoy/ProfilePlusG810/blob/master/images/NoficationIcon.png)
 
@@ -10,7 +10,7 @@ Manual profile selection and creation utility for the Logitech G810 mechanical k
 * Selecting a profile will change the LED on your G810 keyboard according to its setting.
 * Select Reset to Logitech default to return your keyboard LEDs as they were before the program launched.
 
-##Settings Window
+## Settings Window
 
 ![](https://github.com/GlutenBoy/ProfilePlusG810/blob/master/images/SettingsWindow.png)
 
